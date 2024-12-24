@@ -30,4 +30,15 @@ namespace CSharp13Playground
             }
         }
     }
+
+    internal static class Display
+    {
+        //public static void DisplayItem(params IEnumerable<string> names)
+        //    => Console.WriteLine(String.Join(", ", names));
+
+        public static void DisplayItem<T>(params IEnumerable<T> names)
+            => Console.WriteLine(String.Join(", ", names));
+
+    }
+    public record Person(string FirstName,string LastName);
 }
