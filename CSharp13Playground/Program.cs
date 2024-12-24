@@ -15,4 +15,7 @@ var persons = new List<Person> {
 //Disposer.DisposeAll<StringReader>(persons);
 Display.DisplayItem<string>(persons.Select(p=>p.FirstName));
 
+// 2. Lock object
+var count = SingleInstance.Instance.GetCount();
+Console.WriteLine($"Count: {count}");
 

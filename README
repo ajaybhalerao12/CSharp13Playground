@@ -38,6 +38,13 @@ To get started with the CSharp13Playground, follow these steps:
 
 Explore the new features of C# 13 through the following examples and use cases:
 
+#### **Example 1: Improved Params collection**
+- **File**: `Disposer.cs`
+- **Description**: Demonstrates the Params collection enhancements in C# 13.
+
+#### **Example 2: Lock Object**
+- **File**: `SingleInstance.cs`
+- **Description**: Demonstrates the type for mutual exclusion that can be more efficient than locking.
 
 ## Contributing
 Contributions are welcome! If you have any new features or improvements related to C# 13, please fork the repository and submit a pull request.
